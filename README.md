@@ -1,5 +1,7 @@
 # ShiftPlanning
-Planning of shifts for an infinite number of production equipment. Calculation of planned hours and and machine availability. Cost for labour and machines. 
+Implementation of a shift planner and shift calendar to planning of shifts for an infinite number of shift patterns and production equipment. 
+
+
 
 ##User
 > Who will use this application?
@@ -7,6 +9,9 @@ Planning of shifts for an infinite number of production equipment. Calculation o
     production manager
 
 ## Summary
+
+
+Calculation of planned hours and and machine availability. Cost for labour and machines. 
 
 Name your project and prepare to describe it briefly.
 Name: 'AV Route Optimisation'
