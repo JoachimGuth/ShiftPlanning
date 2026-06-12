@@ -1,11 +1,11 @@
 # ShiftPlanning
 Planning of shifts for an infinite number of production equipment. Calculation of planned hours and and machine availability. Cost for labour and machines. 
 
-#User
+# User
 .production planner
 .production manager
 
-#Summary
+## Summary
 
 Name your project and prepare to describe it briefly.
 Name: 'AV Route Optimisation'
@@ -16,7 +16,7 @@ The autonomous buses bring passengers living in the respective city area to vari
 
 #Background
 
-What is the problem your idea will solve? How common or frequent is this problem? What is your personal motivation? Why is this topic > important or interesting?
+> What is the problem your idea will solve? How common or frequent is this problem? What is your personal motivation? Why is this topic > important or interesting?
 The project improves public transport in a confined city area which is disconnected from the major public transport system (train, underground, etc)
 
 Autonomous buses are driving around in the respective city area to pick up residents from their homes to bring them to a number of destinations in the area. The destinations can be bus stops, train station, public pick up places, other homes and other places of interest.
