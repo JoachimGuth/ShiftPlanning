@@ -3,18 +3,21 @@ Implementation of a shift planner and shift calendar to planning of shifts for a
 
 
 
-##User
-> Who will use this application?
+## User
+> List the potential users of this application?
+
     production planner
     production manager
 
 ## Summary
-
+> Summarise the major functions of the application
+> Name the project and describethe major function briefly.
+# Name: 'ShiftOp(erations)'
 
 Calculation of planned hours and and machine availability. Cost for labour and machines. 
 
-Name your project and prepare to describe it briefly.
-Name: 'AV Route Optimisation'
+
+
 
 This project is about the route optimisation of autonomous buses circling and roaming around in a city area which is disconnected to public transport.
 
@@ -45,7 +48,9 @@ Personally I am still looking to contribute to continual reduction of CO2 emissi
 
 ## Data and AI techniques:
 
-What data sources does your project depend on? Almost all AI solutions depend on some data. The availability and quality of the data are essential. Which AI techniques do you think will be helpful? Depending on whether you've been doing the programming exercises or not, you may choose to include a concrete demo implemented by coding, using some actual data!
+> What data sources does your project depend on? 
+
+Almost all AI solutions depend on some data. The availability and quality of the data are essential. Which AI techniques do you think will be helpful? Depending on whether you've been doing the programming exercises or not, you may choose to include a concrete demo implemented by coding, using some actual data!
 Data
 
 registered public and home locations
