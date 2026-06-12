@@ -1,6 +1,6 @@
-# ShiftPlanning
-Implementation of a shift planner and shift calendar to planning of shifts for an infinite number of shift patterns and production equipment. 
+# Shift Operations Planning
 
+Implementation of a shift planner and shift calendar to planning of shifts for an infinite number of shift patterns and production equipment. 
 
 
 ## User
@@ -10,9 +10,9 @@ Implementation of a shift planner and shift calendar to planning of shifts for a
     production manager
 
 ## Summary
-> Summarise the major functions of the application
-> Name the project and describethe major function briefly.
-# Name: 'ShiftOp(erations)'
+> Name the project and describethe major function of the applicationbriefly.
+
+### Name: 'ShiftOp(erations)'
 
 Calculation of planned hours and and machine availability. Cost for labour and machines. 
 
