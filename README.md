@@ -1,22 +1,22 @@
-# Shift Operations Planning
+# ShiftOp - Shift Operations Planning 
 
 Implementation of a shift planner and shift calendar to planning of shifts for an infinite number of shift patterns and production equipment. 
 
 
 ## User
+
 > List the potential users of this application?
 
     production planner
     production manager
 
 ## Summary
+
 > Name the project and describethe major function of the applicationbriefly.
 
-### Name: 'ShiftOp(erations)'
+> ##### Name: 'ShiftOp(erations)'
 
 Calculation of planned hours and and machine availability. Cost for labour and machines. 
-
-
 
 
 This project is about the route optimisation of autonomous buses circling and roaming around in a city area which is disconnected to public transport.
@@ -72,7 +72,7 @@ visualisation of passenger locations
 What is the context in which your solution is used, and by whom? Who are the people affected by it? It’s important to appreciate the viewpoints of all those affected.
 Residents of a fairly remote city area not well connected to the public transport system will use the AV to reach a public transport location or reach home from the public transport location.
 
-## Parties are involved
+## Parties involved
 
 passengers
 bus operator
@@ -80,14 +80,21 @@ city planners
 Challenges
 
 ## Problem Statement
+
 > What problem does your project not solve? 
 
 It’s important to understand that any technological solution will have its limitations. 
 
-What next: How could your project grow and become something even more?
+## Next Step
+
+> What next: 
+
+How could your project grow and become something even more?
 Target would be to achieve an optimal travelling time for each passenger (direct route) but this is not possible as many passengers have to be served.
 
-## cknowledgments
+## Acknowledgments
 
-If you’re using open source code or documents in your project, make sure you give credit to the creators. Mention your sources of inspiration, too.
+> If you’re using open source code or documents in your project, make sure you give credit to the creators. 
+> Mention your sources of inspiration, too.
+
 So far not used any references.
