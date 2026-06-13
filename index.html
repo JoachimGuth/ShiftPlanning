@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My App</title>
+</head>
+<body>
+
+<div id="passwordPrompt">
+    <h2>Enter Password</h2>
+    <input type="password" id="passwordInput" placeholder="Enter password">
+    <button onclick="checkPassword()">Submit</button>
+</div>
+
+<div id="appContent" style="display:none;">
+    <!-- Your actual app content goes here -->
+    <h1>Welcome to My App</h1>
+    <p>Your protected content...</p>
+</div>
+
+<script>
+function checkPassword() {
+    const correctPassword = "your-password-here"; // Change this!
+    const userPassword = document.getElementById("passwordInput").value;
+    
+    if (userPassword === correctPassword) {
+        document.getElementById("passwordPrompt").style.display = "none";
+        document.getElementById("appContent").style.display = "block";
+        // Optionally save in session so user doesn't need to re-enter
+        sessionStorage.setItem("authenticated", "true");
+    } else {
+        alert("Incorrect password!");
+    }
+}
+
+// Check if already authenticated in this session
+window.onload = function() {
+    if (sessionStorage.getItem("authenticated") === "true") {
+        document.getElementById("passwordPrompt").style.display = "none";
+        document.getElementById("appContent").style.display = "block";
+    }
+};
+</script>
+
+</body>
+</html>
