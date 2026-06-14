@@ -1,0 +1,11 @@
+json{
+  "name": "Machine Shift Configurator",
+  "short_name": "ShiftOp",
+  "start_url": "/ShiftPlanning/",
+  "display": "standalone",
+  "background_color": "#f5f5f4",
+  "theme_color": "#378ADD",
+  "icons": [
+    { "src": "icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
