@@ -1,6 +1,6 @@
 [
   {
-    "name": "RM1",
+    "name": "Mill1",
     "active": true,
     "baseRateUSD": 20,
     "machRateUSD": 50,
@@ -109,7 +109,7 @@
     "annualTotalCostUSD": 28800
   },
   {
-    "name": "Sa1",
+    "name": "Annealing1",
     "active": true,
     "baseRateUSD": 30,
     "machRateUSD": 100,
@@ -242,7 +242,7 @@
     "annualTotalCostUSD": 114000
   },
   {
-    "name": "M1",
+    "name": "Rolling1",
     "active": true,
     "baseRateUSD": 20,
     "machRateUSD": 40,
@@ -393,7 +393,7 @@
     "annualTotalCostUSD": 115200
   },
   {
-    "name": "S1",
+    "name": "Schneiden1",
     "active": true,
     "baseRateUSD": 20,
     "machRateUSD": 70,
@@ -500,114 +500,5 @@
     "annualLabourCostUSD": 3200,
     "annualMachCostUSD": 5600,
     "annualTotalCostUSD": 8800
-  },
-  {
-    "name": "VeeLant",
-    "active": true,
-    "baseRateUSD": 0,
-    "machRateUSD": 0,
-    "defaultDowntime": {
-      "breaks": 20,
-      "maintenance": 10,
-      "machineFail": 0,
-      "opFail": 0,
-      "matFail": 0
-    },
-    "patterns": [
-      {
-        "id": 101,
-        "name": "Pattern A",
-        "shifts": [
-          {
-            "name": "Day",
-            "start": "06:00",
-            "end": "14:00",
-            "operators": 1,
-            "rateAdderUSD": 0,
-            "downtime": {
-              "breaks": 20,
-              "maintenance": 10,
-              "machineFail": 0,
-              "opFail": 0,
-              "matFail": 0
-            },
-            "scheduledHoursPerDay": 8,
-            "totalDowntimeMins": 30,
-            "productiveHoursPerDay": 7.5,
-            "availabilityPct": 94
-          }
-        ]
-      }
-    ],
-    "operatingDays": [
-      {
-        "month": "Jan",
-        "days": 0,
-        "patternId": null
-      },
-      {
-        "month": "Feb",
-        "days": 0,
-        "patternId": null
-      },
-      {
-        "month": "Mar",
-        "days": 0,
-        "patternId": null
-      },
-      {
-        "month": "Apr",
-        "days": 0,
-        "patternId": null
-      },
-      {
-        "month": "May",
-        "days": 0,
-        "patternId": null
-      },
-      {
-        "month": "Jun",
-        "days": 0,
-        "patternId": null
-      },
-      {
-        "month": "Jul",
-        "days": 0,
-        "patternId": null
-      },
-      {
-        "month": "Aug",
-        "days": 0,
-        "patternId": null
-      },
-      {
-        "month": "Sep",
-        "days": 0,
-        "patternId": null
-      },
-      {
-        "month": "Oct",
-        "days": 0,
-        "patternId": null
-      },
-      {
-        "month": "Nov",
-        "days": 0,
-        "patternId": null
-      },
-      {
-        "month": "Dec",
-        "days": 0,
-        "patternId": null
-      }
-    ],
-    "annualOpDays": 0,
-    "annualScheduledHours": 0,
-    "annualProductiveHours": 0,
-    "annualAvailabilityPct": 0,
-    "annual24hAvailabilityPct": 0,
-    "annualLabourCostUSD": 0,
-    "annualMachCostUSD": 0,
-    "annualTotalCostUSD": 0
   }
 ]
