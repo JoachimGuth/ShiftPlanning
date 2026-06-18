@@ -412,6 +412,11 @@
         "name": "KXX01",
         "rate": 1,
         "unit": "t"
+      },
+      {
+        "name": "KXX02",
+        "rate": 2,
+        "unit": "t"
       }
     ],
     "patterns": [
