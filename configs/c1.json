@@ -19,6 +19,26 @@
           }
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "Day8",
+      "shifts": [
+        {
+          "name": "Day8",
+          "start": "06:00",
+          "end": "14:00",
+          "operators": 3,
+          "rateAdderUSD": 0,
+          "downtime": {
+            "breaks": 20,
+            "maintenance": 10,
+            "machineFail": 0,
+            "opFail": 0,
+            "matFail": 0
+          }
+        }
+      ]
     }
   ],
   "machines": [
@@ -157,57 +177,37 @@
         "opFail": 10,
         "matFail": 0
       },
-      "products": [],
+      "products": [
+        {
+          "name": "Product 1",
+          "rate": 2,
+          "unit": "t"
+        }
+      ],
       "patterns": [
         {
-          "id": 2,
-          "name": "Day",
-          "standardPattern": false,
-          "standardPatternId": null,
+          "id": 201,
+          "name": "Day8",
+          "standardPattern": true,
+          "standardPatternId": 2,
           "shifts": [
             {
-              "name": "Day",
+              "name": "Day8",
               "start": "06:00",
-              "end": "18:00",
+              "end": "14:00",
               "operators": 3,
               "rateAdderUSD": 0,
               "downtime": {
                 "breaks": 20,
                 "maintenance": 10,
                 "machineFail": 0,
-                "opFail": 10,
-                "matFail": 0
-              },
-              "scheduledHoursPerDay": 12,
-              "totalDowntimeMins": 40,
-              "productiveHoursPerDay": 11.33,
-              "availabilityPct": 94
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Night",
-          "standardPattern": false,
-          "standardPatternId": null,
-          "shifts": [
-            {
-              "name": "Night",
-              "start": "18:00",
-              "end": "02:00",
-              "operators": 2,
-              "rateAdderUSD": 0,
-              "downtime": {
-                "breaks": 20,
-                "maintenance": 10,
-                "machineFail": 0,
-                "opFail": 10,
+                "opFail": 0,
                 "matFail": 0
               },
               "scheduledHoursPerDay": 8,
-              "totalDowntimeMins": 40,
-              "productiveHoursPerDay": 7.33,
-              "availabilityPct": 92
+              "totalDowntimeMins": 30,
+              "productiveHoursPerDay": 7.5,
+              "availabilityPct": 94
             }
           ]
         }
@@ -216,12 +216,12 @@
         {
           "month": "Jan",
           "days": 25,
-          "patternId": 2
+          "patternId": 201
         },
         {
           "month": "Feb",
           "days": 25,
-          "patternId": 2
+          "patternId": 201
         },
         {
           "month": "Mar",
@@ -275,13 +275,13 @@
         }
       ],
       "annualOpDays": 50,
-      "annualScheduledHours": 600,
-      "annualProductiveHours": 566.67,
+      "annualScheduledHours": 400,
+      "annualProductiveHours": 375,
       "annualAvailabilityPct": 94,
-      "annual24hAvailabilityPct": 47,
-      "annualLabourCostUSD": 54000,
-      "annualMachCostUSD": 60000,
-      "annualTotalCostUSD": 114000
+      "annual24hAvailabilityPct": 31,
+      "annualLabourCostUSD": 36000,
+      "annualMachCostUSD": 40000,
+      "annualTotalCostUSD": 76000
     },
     {
       "name": "M1",
