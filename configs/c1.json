@@ -1,5 +1,26 @@
 {
-  "standardPatterns": [],
+  "standardPatterns": [
+    {
+      "id": 1,
+      "name": "Day12",
+      "shifts": [
+        {
+          "name": "Day12",
+          "start": "06:00",
+          "end": "18:00",
+          "operators": 2,
+          "rateAdderUSD": 0,
+          "downtime": {
+            "breaks": 20,
+            "maintenance": 10,
+            "machineFail": 0,
+            "opFail": 0,
+            "matFail": 0
+          }
+        }
+      ]
+    }
+  ],
   "machines": [
     {
       "name": "RM1",
@@ -13,18 +34,29 @@
         "opFail": 0,
         "matFail": 0
       },
-      "products": [],
+      "products": [
+        {
+          "name": "Product 1",
+          "rate": 1,
+          "unit": "t"
+        },
+        {
+          "name": "Product 2",
+          "rate": 2,
+          "unit": "t"
+        }
+      ],
       "patterns": [
         {
-          "id": 1,
-          "name": "Day",
-          "standardPattern": false,
-          "standardPatternId": null,
+          "id": 200,
+          "name": "Day12",
+          "standardPattern": true,
+          "standardPatternId": 1,
           "shifts": [
             {
-              "name": "Day",
+              "name": "Day12",
               "start": "06:00",
-              "end": "14:00",
+              "end": "18:00",
               "operators": 2,
               "rateAdderUSD": 0,
               "downtime": {
@@ -34,10 +66,10 @@
                 "opFail": 0,
                 "matFail": 0
               },
-              "scheduledHoursPerDay": 8,
+              "scheduledHoursPerDay": 12,
               "totalDowntimeMins": 30,
-              "productiveHoursPerDay": 7.5,
-              "availabilityPct": 94
+              "productiveHoursPerDay": 11.5,
+              "availabilityPct": 96
             }
           ]
         }
@@ -46,12 +78,12 @@
         {
           "month": "Jan",
           "days": 20,
-          "patternId": 1
+          "patternId": 200
         },
         {
           "month": "Feb",
           "days": 20,
-          "patternId": 1
+          "patternId": 200
         },
         {
           "month": "Mar",
@@ -105,13 +137,13 @@
         }
       ],
       "annualOpDays": 40,
-      "annualScheduledHours": 320,
-      "annualProductiveHours": 300,
-      "annualAvailabilityPct": 94,
-      "annual24hAvailabilityPct": 31,
-      "annualLabourCostUSD": 12800,
-      "annualMachCostUSD": 16000,
-      "annualTotalCostUSD": 28800
+      "annualScheduledHours": 480,
+      "annualProductiveHours": 460,
+      "annualAvailabilityPct": 96,
+      "annual24hAvailabilityPct": 48,
+      "annualLabourCostUSD": 19200,
+      "annualMachCostUSD": 24000,
+      "annualTotalCostUSD": 43200
     },
     {
       "name": "Sa1",
