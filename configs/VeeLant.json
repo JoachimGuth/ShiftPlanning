@@ -1,5 +1,46 @@
 {
-  "standardPatterns": [],
+  "standardPatterns": [
+    {
+      "id": 1,
+      "name": "Standard Pattern 1",
+      "shifts": [
+        {
+          "name": "Day",
+          "start": "06:00",
+          "end": "14:00",
+          "operators": 1,
+          "rateAdderUSD": 0,
+          "downtime": {
+            "breaks": 20,
+            "maintenance": 10,
+            "machineFail": 0,
+            "opFail": 0,
+            "matFail": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Standard Pattern 2",
+      "shifts": [
+        {
+          "name": "Day",
+          "start": "06:00",
+          "end": "14:00",
+          "operators": 1,
+          "rateAdderUSD": 0,
+          "downtime": {
+            "breaks": 20,
+            "maintenance": 10,
+            "machineFail": 0,
+            "opFail": 0,
+            "matFail": 0
+          }
+        }
+      ]
+    }
+  ],
   "machines": [
     {
       "name": "RM1",
@@ -56,6 +97,32 @@
               "totalDowntimeMins": 30,
               "productiveHoursPerDay": 11.5,
               "availabilityPct": 96
+            }
+          ]
+        },
+        {
+          "id": 200,
+          "name": "Standard Pattern 1",
+          "standardPattern": true,
+          "standardPatternId": 1,
+          "shifts": [
+            {
+              "name": "Day",
+              "start": "06:00",
+              "end": "14:00",
+              "operators": 1,
+              "rateAdderUSD": 0,
+              "downtime": {
+                "breaks": 20,
+                "maintenance": 10,
+                "machineFail": 0,
+                "opFail": 0,
+                "matFail": 0
+              },
+              "scheduledHoursPerDay": 8,
+              "totalDowntimeMins": 30,
+              "productiveHoursPerDay": 7.5,
+              "availabilityPct": 94
             }
           ]
         }
@@ -464,6 +531,58 @@
               "availabilityPct": 94
             }
           ]
+        },
+        {
+          "id": 201,
+          "name": "Standard Pattern 1",
+          "standardPattern": true,
+          "standardPatternId": 1,
+          "shifts": [
+            {
+              "name": "Day",
+              "start": "06:00",
+              "end": "14:00",
+              "operators": 1,
+              "rateAdderUSD": 0,
+              "downtime": {
+                "breaks": 20,
+                "maintenance": 10,
+                "machineFail": 0,
+                "opFail": 0,
+                "matFail": 0
+              },
+              "scheduledHoursPerDay": 8,
+              "totalDowntimeMins": 30,
+              "productiveHoursPerDay": 7.5,
+              "availabilityPct": 94
+            }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "Standard Pattern 2",
+          "standardPattern": true,
+          "standardPatternId": 2,
+          "shifts": [
+            {
+              "name": "Day",
+              "start": "06:00",
+              "end": "14:00",
+              "operators": 1,
+              "rateAdderUSD": 0,
+              "downtime": {
+                "breaks": 20,
+                "maintenance": 10,
+                "machineFail": 0,
+                "opFail": 0,
+                "matFail": 0
+              },
+              "scheduledHoursPerDay": 8,
+              "totalDowntimeMins": 30,
+              "productiveHoursPerDay": 7.5,
+              "availabilityPct": 94
+            }
+          ]
         }
       ],
       "operatingDays": [
@@ -474,8 +593,8 @@
         },
         {
           "month": "Feb",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": 201
         },
         {
           "month": "Mar",
@@ -528,14 +647,14 @@
           "patternId": null
         }
       ],
-      "annualOpDays": 10,
-      "annualScheduledHours": 80,
-      "annualProductiveHours": 75,
+      "annualOpDays": 20,
+      "annualScheduledHours": 160,
+      "annualProductiveHours": 150,
       "annualAvailabilityPct": 94,
       "annual24hAvailabilityPct": 31,
-      "annualLabourCostUSD": 3200,
-      "annualMachCostUSD": 5600,
-      "annualTotalCostUSD": 8800
+      "annualLabourCostUSD": 4800,
+      "annualMachCostUSD": 11200,
+      "annualTotalCostUSD": 16000
     }
   ]
 }
