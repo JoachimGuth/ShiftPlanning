@@ -323,7 +323,18 @@
         "opFail": 0,
         "matFail": 0
       },
-      "products": [],
+      "products": [
+        {
+          "name": "Product 1",
+          "rate": 100,
+          "unit": "pcs"
+        },
+        {
+          "name": "Product 2",
+          "rate": 200,
+          "unit": "pcs"
+        }
+      ],
       "patterns": [],
       "operatingDays": [
         {
