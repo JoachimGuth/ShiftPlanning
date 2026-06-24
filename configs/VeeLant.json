@@ -244,12 +244,12 @@
         {
           "month": "Jan",
           "days": 20,
-          "patternId": null
+          "patternId": "std:2"
         },
         {
           "month": "Feb",
           "days": 20,
-          "patternId": null
+          "patternId": "std:2"
         },
         {
           "month": "Mar",
@@ -303,13 +303,13 @@
         }
       ],
       "annualOpDays": 40,
-      "annualScheduledHours": 0,
-      "annualProductiveHours": 0,
-      "annualAvailabilityPct": 0,
-      "annual24hAvailabilityPct": 0,
-      "annualLabourCostUSD": 0,
-      "annualMachCostUSD": 0,
-      "annualTotalCostUSD": 0
+      "annualScheduledHours": 960,
+      "annualProductiveHours": 920,
+      "annualAvailabilityPct": 96,
+      "annual24hAvailabilityPct": 96,
+      "annualLabourCostUSD": 19200,
+      "annualMachCostUSD": 38400,
+      "annualTotalCostUSD": 57600
     },
     {
       "name": "S1",
