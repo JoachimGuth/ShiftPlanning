@@ -2,7 +2,7 @@
   "standardPatterns": [
     {
       "id": 1,
-      "name": "Standard Pattern 1",
+      "name": "Day 8",
       "shifts": [
         {
           "name": "Day",
@@ -22,12 +22,26 @@
     },
     {
       "id": 2,
-      "name": "Standard Pattern 2",
+      "name": "Day 12 Night 12",
       "shifts": [
         {
           "name": "Day",
           "start": "06:00",
-          "end": "14:00",
+          "end": "18:00",
+          "operators": 1,
+          "rateAdderUSD": 0,
+          "downtime": {
+            "breaks": 20,
+            "maintenance": 10,
+            "machineFail": 0,
+            "opFail": 0,
+            "matFail": 0
+          }
+        },
+        {
+          "name": "Shift 2",
+          "start": "18:00",
+          "end": "06:00",
           "operators": 1,
           "rateAdderUSD": 0,
           "downtime": {
@@ -57,146 +71,81 @@
       "products": [],
       "patterns": [
         {
-          "id": 101,
-          "name": "Day12 Night12",
-          "standardPattern": false,
-          "standardPatternId": null,
-          "shifts": [
-            {
-              "name": "Day",
-              "start": "06:00",
-              "end": "18:00",
-              "operators": 3,
-              "rateAdderUSD": 0,
-              "downtime": {
-                "breaks": 20,
-                "maintenance": 10,
-                "machineFail": 0,
-                "opFail": 0,
-                "matFail": 0
-              },
-              "scheduledHoursPerDay": 12,
-              "totalDowntimeMins": 30,
-              "productiveHoursPerDay": 11.5,
-              "availabilityPct": 96
-            },
-            {
-              "name": "Shift 2",
-              "start": "18:00",
-              "end": "06:00",
-              "operators": 3,
-              "rateAdderUSD": 0,
-              "downtime": {
-                "breaks": 20,
-                "maintenance": 10,
-                "machineFail": 0,
-                "opFail": 0,
-                "matFail": 0
-              },
-              "scheduledHoursPerDay": 12,
-              "totalDowntimeMins": 30,
-              "productiveHoursPerDay": 11.5,
-              "availabilityPct": 96
-            }
-          ]
-        },
-        {
-          "id": 201,
-          "name": "Standard Pattern 1",
-          "standardPattern": true,
-          "standardPatternId": 1,
-          "shifts": [
-            {
-              "name": "Day",
-              "start": "06:00",
-              "end": "14:00",
-              "operators": 1,
-              "rateAdderUSD": 0,
-              "downtime": {
-                "breaks": 20,
-                "maintenance": 10,
-                "machineFail": 0,
-                "opFail": 0,
-                "matFail": 0
-              },
-              "scheduledHoursPerDay": 8,
-              "totalDowntimeMins": 30,
-              "productiveHoursPerDay": 7.5,
-              "availabilityPct": 94
-            }
-          ]
+          "id": 200,
+          "name": "Pattern B",
+          "shifts": []
         }
       ],
       "operatingDays": [
         {
           "month": "Jan",
           "days": 20,
-          "patternId": null
+          "patternId": "std:1"
         },
         {
           "month": "Feb",
           "days": 20,
-          "patternId": null
+          "patternId": "std:1"
         },
         {
           "month": "Mar",
-          "days": 0,
-          "patternId": null
+          "days": 20,
+          "patternId": "std:1"
         },
         {
           "month": "Apr",
-          "days": 0,
-          "patternId": null
+          "days": 20,
+          "patternId": "std:1"
         },
         {
           "month": "May",
-          "days": 0,
-          "patternId": null
+          "days": 20,
+          "patternId": "std:1"
         },
         {
           "month": "Jun",
-          "days": 0,
-          "patternId": null
+          "days": 20,
+          "patternId": "std:1"
         },
         {
           "month": "Jul",
-          "days": 0,
-          "patternId": null
+          "days": 20,
+          "patternId": "std:1"
         },
         {
           "month": "Aug",
-          "days": 0,
-          "patternId": null
+          "days": 20,
+          "patternId": "std:1"
         },
         {
           "month": "Sep",
-          "days": 0,
-          "patternId": null
+          "days": 20,
+          "patternId": "std:1"
         },
         {
           "month": "Oct",
-          "days": 0,
-          "patternId": null
+          "days": 20,
+          "patternId": "std:1"
         },
         {
           "month": "Nov",
-          "days": 0,
-          "patternId": null
+          "days": 20,
+          "patternId": "std:1"
         },
         {
           "month": "Dec",
-          "days": 0,
-          "patternId": null
+          "days": 20,
+          "patternId": "std:1"
         }
       ],
-      "annualOpDays": 40,
-      "annualScheduledHours": 0,
-      "annualProductiveHours": 0,
-      "annualAvailabilityPct": 0,
-      "annual24hAvailabilityPct": 0,
-      "annualLabourCostUSD": 0,
-      "annualMachCostUSD": 0,
-      "annualTotalCostUSD": 0
+      "annualOpDays": 240,
+      "annualScheduledHours": 1920,
+      "annualProductiveHours": 1800,
+      "annualAvailabilityPct": 94,
+      "annual24hAvailabilityPct": 31,
+      "annualLabourCostUSD": 38400,
+      "annualMachCostUSD": 96000,
+      "annualTotalCostUSD": 134400
     },
     {
       "name": "Sa1",
@@ -215,8 +164,6 @@
         {
           "id": 2,
           "name": "Day",
-          "standardPattern": false,
-          "standardPatternId": null,
           "shifts": [
             {
               "name": "Day",
@@ -241,8 +188,6 @@
         {
           "id": 3,
           "name": "Night",
-          "standardPattern": false,
-          "standardPatternId": null,
           "shifts": [
             {
               "name": "Night",
@@ -353,8 +298,6 @@
         {
           "id": 4,
           "name": "Day + Night",
-          "standardPattern": false,
-          "standardPatternId": null,
           "shifts": [
             {
               "name": "Day",
@@ -397,8 +340,6 @@
         {
           "id": 5,
           "name": "Day",
-          "standardPattern": false,
-          "standardPatternId": null,
           "shifts": [
             {
               "name": "Day",
@@ -491,6 +432,116 @@
       "annualLabourCostUSD": 76800,
       "annualMachCostUSD": 38400,
       "annualTotalCostUSD": 115200
+    },
+    {
+      "name": "S1",
+      "active": true,
+      "baseRateUSD": 20,
+      "machRateUSD": 70,
+      "defaultDowntime": {
+        "breaks": 20,
+        "maintenance": 10,
+        "machineFail": 0,
+        "opFail": 0,
+        "matFail": 0
+      },
+      "products": [],
+      "patterns": [
+        {
+          "id": 6,
+          "name": "Day 8",
+          "shifts": [
+            {
+              "name": "Day 8",
+              "start": "06:00",
+              "end": "14:00",
+              "operators": 2,
+              "rateAdderUSD": 0,
+              "downtime": {
+                "breaks": 20,
+                "maintenance": 10,
+                "machineFail": 0,
+                "opFail": 0,
+                "matFail": 0
+              },
+              "scheduledHoursPerDay": 8,
+              "totalDowntimeMins": 30,
+              "productiveHoursPerDay": 7.5,
+              "availabilityPct": 94
+            }
+          ]
+        }
+      ],
+      "operatingDays": [
+        {
+          "month": "Jan",
+          "days": 10,
+          "patternId": 6
+        },
+        {
+          "month": "Feb",
+          "days": 0,
+          "patternId": null
+        },
+        {
+          "month": "Mar",
+          "days": 0,
+          "patternId": null
+        },
+        {
+          "month": "Apr",
+          "days": 0,
+          "patternId": null
+        },
+        {
+          "month": "May",
+          "days": 0,
+          "patternId": null
+        },
+        {
+          "month": "Jun",
+          "days": 0,
+          "patternId": null
+        },
+        {
+          "month": "Jul",
+          "days": 0,
+          "patternId": null
+        },
+        {
+          "month": "Aug",
+          "days": 0,
+          "patternId": null
+        },
+        {
+          "month": "Sep",
+          "days": 0,
+          "patternId": null
+        },
+        {
+          "month": "Oct",
+          "days": 0,
+          "patternId": null
+        },
+        {
+          "month": "Nov",
+          "days": 0,
+          "patternId": null
+        },
+        {
+          "month": "Dec",
+          "days": 0,
+          "patternId": null
+        }
+      ],
+      "annualOpDays": 10,
+      "annualScheduledHours": 80,
+      "annualProductiveHours": 75,
+      "annualAvailabilityPct": 94,
+      "annual24hAvailabilityPct": 31,
+      "annualLabourCostUSD": 3200,
+      "annualMachCostUSD": 5600,
+      "annualTotalCostUSD": 8800
     }
   ]
 }
