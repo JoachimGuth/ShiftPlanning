@@ -159,22 +159,22 @@
         {
           "month": "Jan",
           "days": 25,
-          "patternId": null
+          "patternId": "std:2"
         },
         {
           "month": "Feb",
           "days": 25,
-          "patternId": null
+          "patternId": "std:2"
         },
         {
           "month": "Mar",
-          "days": 0,
-          "patternId": null
+          "days": 25,
+          "patternId": "std:2"
         },
         {
           "month": "Apr",
-          "days": 0,
-          "patternId": null
+          "days": 25,
+          "patternId": "std:2"
         },
         {
           "month": "May",
@@ -217,14 +217,14 @@
           "patternId": null
         }
       ],
-      "annualOpDays": 50,
-      "annualScheduledHours": 0,
-      "annualProductiveHours": 0,
-      "annualAvailabilityPct": 0,
-      "annual24hAvailabilityPct": 0,
-      "annualLabourCostUSD": 0,
-      "annualMachCostUSD": 0,
-      "annualTotalCostUSD": 0
+      "annualOpDays": 100,
+      "annualScheduledHours": 2400,
+      "annualProductiveHours": 2300,
+      "annualAvailabilityPct": 96,
+      "annual24hAvailabilityPct": 96,
+      "annualLabourCostUSD": 72000,
+      "annualMachCostUSD": 240000,
+      "annualTotalCostUSD": 312000
     },
     {
       "name": "M1",
@@ -244,12 +244,12 @@
         {
           "month": "Jan",
           "days": 20,
-          "patternId": "std:2"
+          "patternId": null
         },
         {
           "month": "Feb",
           "days": 20,
-          "patternId": "std:2"
+          "patternId": null
         },
         {
           "month": "Mar",
@@ -303,13 +303,13 @@
         }
       ],
       "annualOpDays": 40,
-      "annualScheduledHours": 960,
-      "annualProductiveHours": 920,
-      "annualAvailabilityPct": 96,
-      "annual24hAvailabilityPct": 96,
-      "annualLabourCostUSD": 19200,
-      "annualMachCostUSD": 38400,
-      "annualTotalCostUSD": 57600
+      "annualScheduledHours": 0,
+      "annualProductiveHours": 0,
+      "annualAvailabilityPct": 0,
+      "annual24hAvailabilityPct": 0,
+      "annualLabourCostUSD": 0,
+      "annualMachCostUSD": 0,
+      "annualTotalCostUSD": 0
     },
     {
       "name": "S1",
