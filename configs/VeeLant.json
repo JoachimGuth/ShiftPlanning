@@ -329,72 +329,72 @@
         {
           "month": "Jan",
           "days": 10,
-          "patternId": null
+          "patternId": "std:1"
         },
         {
           "month": "Feb",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": "std:1"
         },
         {
           "month": "Mar",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": "std:1"
         },
         {
           "month": "Apr",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": "std:1"
         },
         {
           "month": "May",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": "std:1"
         },
         {
           "month": "Jun",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": "std:1"
         },
         {
           "month": "Jul",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": "std:1"
         },
         {
           "month": "Aug",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": "std:1"
         },
         {
           "month": "Sep",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": "std:1"
         },
         {
           "month": "Oct",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": "std:1"
         },
         {
           "month": "Nov",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": "std:1"
         },
         {
           "month": "Dec",
-          "days": 0,
-          "patternId": null
+          "days": 10,
+          "patternId": "std:1"
         }
       ],
-      "annualOpDays": 10,
-      "annualScheduledHours": 0,
-      "annualProductiveHours": 0,
-      "annualAvailabilityPct": 0,
-      "annual24hAvailabilityPct": 0,
-      "annualLabourCostUSD": 0,
-      "annualMachCostUSD": 0,
-      "annualTotalCostUSD": 0
+      "annualOpDays": 120,
+      "annualScheduledHours": 960,
+      "annualProductiveHours": 900,
+      "annualAvailabilityPct": 94,
+      "annual24hAvailabilityPct": 31,
+      "annualLabourCostUSD": 19200,
+      "annualMachCostUSD": 67200,
+      "annualTotalCostUSD": 86400
     }
   ]
 }
